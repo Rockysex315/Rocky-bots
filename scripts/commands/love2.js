@@ -24,7 +24,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "love you bot") || (event.body.toLowerCase() == "love u bot") ||
 (event.body.toLowerCase() == "Bot love you") || 
 (event.body.toLowerCase() == "Bot love u")) {
-     return api.sendMessage("বস 𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍 মেয়েদে'র সাথে কথা বলতে মানা করছে-🙂🤗🐸", threadID);
+     return api.sendMessage("বস ROCKY মেয়েদে'র সাথে কথা বলতে মানা করছে-🙂🤗🐸", threadID);
    };
 
     if ((event.body.toLowerCase() == "bot jamay dau") || (event.body.toLowerCase() == "Bot jamay dau") ||
