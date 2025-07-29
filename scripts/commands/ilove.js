@@ -1,6 +1,6 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "",
+  name: "bot",
   version: "0.0.3",
   permission: 0,
   prefix: false,
@@ -375,16 +375,16 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("আমার বস রকি কে চোখে দেখো না নাকি__😒🥱", threadID);
    };
 
-   if ((event.body.toLowerCase() == "JANNAT") || (event.body.toLowerCase() == "jannat")) {
-     return api.sendMessage("জান্নাত বস রকির সাথে প্রেম করতে চাই ছিলো🔪😼", threadID);
+   if ((event.body.toLowerCase() == "LAMU") || (event.body.toLowerCase() == "jannat")) {
+     return api.sendMessage("LAMU  রকির সাথে হাত মারতে চাই ছিলো🔪😼", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Jannat") || (event.body.toLowerCase() == "জান্নাত")) {
+   if ((event.body.toLowerCase() == "SUMU") || (event.body.toLowerCase() == "sumu")) {
      return api.sendMessage(", 😒😼.                   জান্নাত বস রকির সাথে প্রেম করতে চাই ছিলো", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Nila") || (event.body.toLowerCase() == "নীলা")) {
-     return api.sendMessage("বস রকি কে নীলা মনে মনে ভালোবাসে,😒🤣", threadID);
+   if ((event.body.toLowerCase() == "Lamu") || (event.body.toLowerCase() == "লামু")) {
+     return api.sendMessage("বস রকি কে লামু মনে মনে ভালোবাসে,😒🤣", threadID);
    };
 
    if ((event.body.toLowerCase() == "basar sobai kmon ache") || (event.body.toLowerCase() == "Basar sobai kmon ache") ||
@@ -396,7 +396,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("-আলহামদুলিল্লাহ-🌺-অনেক অনেক ভালো আছে তোমার বাসার সবাই কেমন আছে-💝🌻", threadID);
    };
   
-  if (event.body.indexOf("বট") == 0 || (event.body.indexOf("Baby") == 0)) {
+  if (event.body.indexOf("বট") == 0 || (event.body.indexOf("BOT") == 0)) {
     var msg = {
       body: `《𓆩٭${name}٭𓆪》 ${rand}`
     }
