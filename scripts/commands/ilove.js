@@ -1,6 +1,6 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "bot",
+  name: "pori",
   version: "0.0.3",
   permission: 0,
   prefix: false,
@@ -27,7 +27,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("বস 𝐑Ⓞ𝐂🅚𝐘 মেয়েদে'র সাথে কথা বলতে মানা করছে-🙂🤗🐸", threadID);
    };
 
-    if ((event.body.toLowerCase() == "bot jamay dau") || (event.body.toLowerCase() == "Bot jamay dau") ||
+    if ((event.body.toLowerCase() == "bot jamay dau") || (event.body.toLowerCase() == "Bot jamay daw") ||
 (event.body.toLowerCase() == "বট জামাই দাও")) {
      return api.sendMessage("আমার বস রকি কে চোখে দেখো না নাকি__😒🥱", threadID);
    };
@@ -396,7 +396,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("-আলহামদুলিল্লাহ-🌺-অনেক অনেক ভালো আছে তোমার বাসার সবাই কেমন আছে-💝🌻", threadID);
    };
   
-  if (event.body.indexOf("বট") == 0 || (event.body.indexOf("BOT") == 0)) {
+  if (event.body.indexOf("পরি") == 0 || (event.body.indexOf("pori") == 0)) {
     var msg = {
       body: `《𓆩٭${name}٭𓆪》 ${rand}`
     }
