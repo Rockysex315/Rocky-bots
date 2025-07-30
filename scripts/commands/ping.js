@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "ping",
+	name: "tag",
 	version: "1.0.4",
 	permssion: 0,
 	credits: "NAYAN",
